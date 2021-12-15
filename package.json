@@ -1,0 +1,21 @@
+{
+  "name": "nfl-api",
+  "version": "1.0.0",
+  "description": "## Instructions In the initial commit to this project, you have been provided data about NFL teams. Over the course of the next couple of classes we will use this data to build up a REST API. These exercises will be completed in class.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --format codeframe .",
+    "lint:fix": "eslint --format codeframe .",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "nodemon": "^2.0.15"
+  }
+}
